@@ -1,0 +1,59 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las cards pasen a otra fila si no hay espacio */
+  justify-content: center; /* Centra las cards horizontalmente */
+  align-items: stretch; /* Asegura que todas las cards tengan la misma altura */
+  gap: 300px; /* Espaciado entre las cards */
+  padding: 20px; /* Espaciado interno */
+}
+
+.card {
+  display: flex;
+  flex-direction: column; /* Asegura que el contenido interno esté bien organizado */
+  justify-content: space-between; /* Espacia uniformemente el contenido interno */
+  width: 600px;
+  min-height: 450px; /* Altura mínima para todas las cards */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; /* Asegura que el padding no altere el tamaño total */
+}
+
+.card-title {
+  margin-top: 15px;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.card-description {
+  margin: 15px 0;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.5;
+  flex-grow: 1; /* Permite que la descripción ocupe el espacio restante */
+}
+
+.btn-download {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #FF6F61;
+  color: #000000;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  max-width: 200px; /* Limita el ancho del botón */
+  align-self: center; /* Centra el botón horizontalmente */
+}
+
+.btn-download:hover {
+  background-color: #FF4837;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

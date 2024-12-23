@@ -1,0 +1,106 @@
+.educacion h1{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+p {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    max-width: 600px; /* Limita el ancho del párrafo */
+    word-wrap: break-word; /* Permite que las palabras se rompan si exceden el ancho */
+    overflow-wrap: break-word; /* Alternativa moderna a word-wrap */
+    
+}
+
+.acerca-de-matias {
+  margin-top: -500px;
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    
+  }
+  
+  .acerca-de-matias h2 {
+    font-size: 24px; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto */
+    writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+    transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+    text-decoration: underline; /* Subraya el texto */
+    text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+    text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+    margin-top: -220px;
+  }
+  
+.card2 {
+  margin-left: -430px;
+  margin-top: 1450px;
+}
+.card3 {
+  margin-bottom: -770px;
+}
+
+.linea-vertical {
+  width: 2px; /* Grosor de la línea */
+  height: 300px; /* Altura de la línea */
+  background-color: #ffffff; /* Color de la línea */
+  margin: 0 10px; /* Espaciado lateral (opcional) */
+}
+
+.circulo {
+  width: 20px; /* Diámetro del círculo */
+    height: 20px; /* Diámetro del círculo */
+    background-color: transparent; /* Sin relleno */
+    border: 2px solid #ffffff; /* Borde con color */
+    border-radius: 50%; /* Hace que sea redondo */
+    margin: 10px; /* Espaciado opcional */
+}
+.contenedor-matias {
+  margin-top: 500px;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  gap: 10px; /* Espacio entre el círculo y la línea */
+}
+
+
+.acerca-de-ivan {
+  margin-top: -1700px;
+  padding-left: 800px;
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    
+  }
+  
+  .acerca-de-ivan h2 {
+    font-size: 24px; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto */
+    writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+    transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+    text-decoration: underline; /* Subraya el texto */
+    text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+    text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+    margin-top: -220px;
+  }
+
+  .contenedor-ivan {
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    gap: 10px; /* Espacio entre el círculo y la línea */
+  }
+
+  .card4 {
+    margin-left: -430px;
+    margin-top: 1470px;
+  }
+  .card5 {
+    margin-bottom: -790px;
+  }
+
+  

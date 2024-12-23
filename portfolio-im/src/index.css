@@ -1,0 +1,11 @@
+html, body {
+  height: 100%; /* Establece la altura de html y body al 100% */
+  margin: 0; /* Elimina los márgenes por defecto */
+  background: linear-gradient(to bottom, #001F3F 10%, #0051A5 100%); /* Fondo degradado */
+  background-repeat: no-repeat; /* Asegura que el fondo no se repita */
+  overflow: auto; /* Permite el scroll si el contenido excede la altura */
+}
+
+body {
+  min-height: 100%; /* Asegura que el contenido del body tenga una altura mínima de 100% */
+}

@@ -1,0 +1,63 @@
+/* Contenedor de la tarjeta */
+.cardServices {
+    width: 240px;  /* Ancho fijo de la tarjeta */
+    height: 240px; /* Altura fija para todas las tarjetas */
+    background-color: #001f3f57; /* Fondo azul oscuro */
+    border: none;  /* Sin bordes */
+    border-radius: 8px; /* Esquinas redondeadas */
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.25); /* Sombra suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: space-between; /* Separación uniforme entre los elementos */
+    padding: 15px; /* Padding interior */
+    margin: 15px; /* Separación entre tarjetas */
+}
+
+/* Imagen o logo */
+.cardServices-image {
+    width: 80px;   /* Tamaño ajustado para la imagen */
+    height: 80px;  /* Mantén proporciones */
+    object-fit: cover;  /* Ajusta la imagen correctamente */
+    margin-bottom: 15px; /* Margen inferior para separar de los textos */
+}
+
+/* Contenido de la tarjeta */
+.cardServices-content {
+    text-align: center; /* Centrado del texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    flex-grow: 1; /* Permite que el contenido crezca para llenar el espacio disponible */
+}
+
+/* Estilo del título */
+.cardServices-title {
+    font-size: 1em;  /* Tamaño adecuado */
+    margin: 0;  /* Sin márgenes extra */
+    color: #ffffff; /* Color blanco */
+    line-height: 1.3; /* Espaciado entre líneas */
+}
+
+/* Estilo de la descripción */
+.cardServices-description {
+    font-size: 0.9em;  /* Tamaño adecuado */
+    color: #ffffff; /* Color blanco */
+    line-height: 1.5; /* Espaciado entre líneas */
+    margin-top: 10px; /* Separación superior */
+    margin-left: -10px;
+    text-align: center; /* Alineación horizontal */
+    display: block; /* Asegura que el texto se comporte como bloque */
+    width: 100%; /* Asegura que ocupe todo el ancho disponible */
+    height: auto; /* Ajusta la altura al contenido */
+}
+
+/* Contenedor para varias tarjetas */
+.services-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a nuevas filas */
+    gap: 20px; /* Separación entre las tarjetas */
+    justify-content: center; /* Centrado del conjunto de tarjetas */
+}

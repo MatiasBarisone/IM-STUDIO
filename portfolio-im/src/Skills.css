@@ -1,0 +1,159 @@
+/* Contenedor del cuadrado */
+.skills-container {
+  width: 350px; /* Ancho del contenedor */
+  height: 50px; /* Altura del contenedor */
+  background-color: #ff6e61b0; /* Fondo coral translúcido */
+  display: flex; /* Uso de flexbox */
+  flex-direction: row; /* Alineación horizontal */
+  align-items: center; /* Centrado vertical */
+  justify-content: space-around; /* Espaciado uniforme entre botones */
+  border-radius: 30px; /* Bordes circulares */
+  margin: 20px auto; /* Centrado horizontal en la página */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar */
+}
+
+/* Estilo de los botones */
+.skills-button {
+  width: 150px; /* Tamaño de los botones */
+  height: 35px; /* Altura de los botones */
+  background-color: transparent; /* Fondo transparente por defecto */
+  border: none; /* Sin bordes */
+  border-radius: 20px; /* Bordes circulares */
+  color: #ffffff; /* Color del texto blanco */
+  font-size: 1em; /* Tamaño del texto */
+  font-weight: bold; /* Texto en negrita */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar color */
+}
+
+/* Botón activo */
+.skills-button.active {
+  background-color: #ff6f61; /* Color coral más sólido */
+  color: #ffffff; /* Texto blanco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra ligera para resaltar */
+}
+
+/* Contenedor de contenido dinámico */
+.skills-content {
+  margin-top: 20px; /* Espaciado superior */
+  text-align: center; /* Centrado del texto */
+  color: #333; /* Texto de contenido en gris oscuro */
+  font-size: 1.1em; /* Tamaño de fuente */
+}
+
+/* Contenido activo */
+.content {
+  display: none; /* Ocultar contenido por defecto */
+}
+
+.active-content {
+  display: block; /* Mostrar contenido activo */
+}
+
+.matias-skills h1 {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: left;
+  margin-left: 50px; /* Mantén el margen para separación */
+}
+
+/* Asegura que el párrafo también se alinee a la izquierda */
+.matias-skills p {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: 50px; /* Espaciado igual que el h1 */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+.acerca-de-matias-skills {
+  display: flex; /* Alinea los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+}
+
+.acerca-de-matias-skills h2 {
+  font-size: 24px; /* Tamaño del texto */
+  color: #ffffff; /* Color del texto */
+  writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+  transform: rotate(
+    180deg
+  ); /* Da vuelta el texto para que mire hacia la derecha */
+  text-decoration: underline; /* Subraya el texto */
+  text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+  text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+}
+
+/* Contenedor de los íconos */
+.iconos-container {
+  display: flex;
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px; /* Espaciado superior */
+  margin-right: 265px;
+  justify-content: center; /* Centra los íconos */
+}
+
+/* Estilo de cada ícono */
+.skill-icon {
+  width: 50px; /* Ajusta el tamaño de los íconos */
+  height: 50px;
+  object-fit: cover;
+}
+/* Contenedor de los íconos */
+.iconos-container-ivan {
+    display: flex;
+  flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas */
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px; /* Espaciado superior */
+  margin-left: -70px;
+  justify-content: center; /* Centra los íconos en cada fila */
+  align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
+  max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
+  }
+
+  /* Estilo de cada ícono */
+  .skill-icon-ivan {
+    width: 50px; /* Ajusta el tamaño de los íconos */
+    height: 50px;
+    object-fit: cover;
+  }
+
+
+.ivan-skills h1 {
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px; /* Mantén el margen para separación */
+  }
+  
+  /* Asegura que el párrafo también se alinee a la izquierda */
+  .ivan-skills p {
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 50px; /* Espaciado igual que el h1 */
+    line-height: 1.5; /* Mejora la legibilidad */
+  }
+  .acerca-de-ivan-skills {
+    display: flex; /* Alinea los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin-top: -270px;
+    margin-left: 1000px;
+   
+  }
+  
+  .acerca-de-ivan-skills h2 {
+    font-size: 24px; /* Tamaño del texto */
+    color: #ffffff; /* Color del texto */
+    writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+    transform: rotate(
+      180deg
+    ); /* Da vuelta el texto para que mire hacia la derecha */
+    text-decoration: underline; /* Subraya el texto */
+    text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+    text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+  }
+
+  

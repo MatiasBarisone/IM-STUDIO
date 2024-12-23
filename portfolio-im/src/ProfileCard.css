@@ -1,0 +1,32 @@
+/* ProfileCard.css */
+.profile-card {
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;  /* Fondo transparente */
+    color: white;
+    border: 2px solid #FF6F61;  /* Borde de color rojo */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: all 0.3s ease; /* Transición suave */
+    margin-top: -200px;
+  }
+  
+
+  .profile-card-title {
+    font-family: 'Roboto', sans-serif;;
+    margin-left: 140px;
+    color: #ffffff;  /* Título en color rojo */
+    
+  }
+  
+  .profile-card-description {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.5;
+  }
+  
+ 

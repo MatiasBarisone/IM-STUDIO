@@ -1,0 +1,137 @@
+.services h1{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.acerca-de-services {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      
+    }
+    
+    .acerca-de-services h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+
+    .acerca-de-services-fila2 {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 65px;
+    }
+    
+    .acerca-de-services-fila2 h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+
+
+    .acerca-de-services-fila3 {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 65px;
+    }
+    
+    .acerca-de-services-fila3 h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+
+    .acerca-de-services-ivan {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+   margin-top: -900px;
+   margin-left: 700px;
+      
+    }
+    
+    .acerca-de-services-ivan h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+    .acerca-de-services-ivanfila2 {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 765px;
+      
+    }
+    
+    .acerca-de-services-ivanfila2 h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+    
+    .acerca-de-services-ivanfila3 {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 765px;
+      
+    }
+    
+    .acerca-de-services-ivanfila3 h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
+
+    
+    .acerca-de-services-ivanfila4 {
+      display: flex; /* Alinea los elementos horizontalmente */
+      align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 765px;
+      
+    }
+    
+    .acerca-de-services-ivanfila4 h2 {
+      font-size: 24px; /* Tamaño del texto */
+      color: #ffffff; /* Color del texto */
+      writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+      transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+      text-decoration: underline; /* Subraya el texto */
+      text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+      text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+     
+    }
