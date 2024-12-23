@@ -54,11 +54,13 @@
   color: aliceblue;
   font-family: "Roboto", sans-serif;
   font-size: 40px;
-  text-align: left;
+  text-align: left; /* Alinea el texto a la izquierda */
   margin-left: 50px; /* Mantén el margen para separación */
+  max-width: 600px; /* Límite de ancho para el texto */
+  word-wrap: break-word; /* Divide las palabras largas */
+  line-height: 1.2; /* Espaciado entre líneas */
 }
 
-/* Asegura que el párrafo también se alinee a la izquierda */
 .matias-skills p {
   color: aliceblue;
   font-family: "Roboto", sans-serif;
@@ -67,6 +69,7 @@
   margin-left: 50px; /* Espaciado igual que el h1 */
   line-height: 1.5; /* Mejora la legibilidad */
 }
+
 .acerca-de-matias-skills {
   display: flex; /* Alinea los elementos horizontalmente */
   align-items: center; /* Centra los elementos verticalmente */
@@ -76,9 +79,7 @@
   font-size: 24px; /* Tamaño del texto */
   color: #ffffff; /* Color del texto */
   writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
-  transform: rotate(
-    180deg
-  ); /* Da vuelta el texto para que mire hacia la derecha */
+  transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
   text-decoration: underline; /* Subraya el texto */
   text-decoration-color: #ffffff; /* Color de la línea de subrayado */
   text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
@@ -89,19 +90,54 @@
   display: flex;
   gap: 30px; /* Espaciado entre los íconos */
   margin-top: 20px; /* Espaciado superior */
-  margin-right: 265px;
+  margin-left: -25px;
   justify-content: center; /* Centra los íconos */
 }
 
-/* Estilo de cada ícono */
 .skill-icon {
   width: 50px; /* Ajusta el tamaño de los íconos */
   height: 50px;
   object-fit: cover;
 }
-/* Contenedor de los íconos */
+
+/* Títulos y párrafos de Iván */
+.ivan-skills h1 {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: 50px; /* Mantén el margen para separación */
+}
+
+.ivan-skills p {
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: left; /* Alinea el texto a la izquierda */
+  margin-left: 50px; /* Espaciado igual que el h1 */
+  line-height: 1.5; /* Mejora la legibilidad */
+}
+
+.acerca-de-ivan-skills {
+  display: flex; /* Alinea los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-top: -315px;
+  margin-left: 1000px;
+}
+
+.acerca-de-ivan-skills h2 {
+  font-size: 24px; /* Tamaño del texto */
+  color: #ffffff; /* Color del texto */
+  writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+  transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+  text-decoration: underline; /* Subraya el texto */
+  text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+  text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+}
+
+/* Contenedor de los íconos de Iván */
 .iconos-container-ivan {
-    display: flex;
+  display: flex;
   flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas */
   gap: 30px; /* Espaciado entre los íconos */
   margin-top: 20px; /* Espaciado superior */
@@ -109,51 +145,34 @@
   justify-content: center; /* Centra los íconos en cada fila */
   align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
   max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
-  }
+}
 
-  /* Estilo de cada ícono */
-  .skill-icon-ivan {
-    width: 50px; /* Ajusta el tamaño de los íconos */
-    height: 50px;
-    object-fit: cover;
-  }
+.skill-icon-ivan {
+  width: 50px; /* Ajusta el tamaño de los íconos */
+  height: 50px;
+  object-fit: cover;
+}
 
+/* Contenedor de los íconos de Iván */
+.iconos-container-herramientas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas */
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px; /* Espaciado superior */
+  margin-left: -50px;
+  justify-content: center; /* Centra los íconos en cada fila */
+  align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
+  max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
+}
 
-.ivan-skills h1 {
-    color: aliceblue;
-    font-family: "Roboto", sans-serif;
-    font-size: 40px;
-    text-align: left;
-    margin-left: 50px; /* Mantén el margen para separación */
-  }
-  
-  /* Asegura que el párrafo también se alinee a la izquierda */
-  .ivan-skills p {
-    color: aliceblue;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    text-align: left; /* Alinea el texto a la izquierda */
-    margin-left: 50px; /* Espaciado igual que el h1 */
-    line-height: 1.5; /* Mejora la legibilidad */
-  }
-  .acerca-de-ivan-skills {
-    display: flex; /* Alinea los elementos horizontalmente */
-    align-items: center; /* Centra los elementos verticalmente */
-    margin-top: -270px;
-    margin-left: 1000px;
-   
-  }
-  
-  .acerca-de-ivan-skills h2 {
-    font-size: 24px; /* Tamaño del texto */
-    color: #ffffff; /* Color del texto */
-    writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
-    transform: rotate(
-      180deg
-    ); /* Da vuelta el texto para que mire hacia la derecha */
-    text-decoration: underline; /* Subraya el texto */
-    text-decoration-color: #ffffff; /* Color de la línea de subrayado */
-    text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
-  }
-
-  
+/* Contenedor de los íconos de Iván */
+.iconos-container-ivan-herramientas {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas */
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px; /* Espaciado superior */
+  margin-left: -140px;
+  justify-content: center; /* Centra los íconos en cada fila */
+  align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
+  max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
+}

@@ -3,12 +3,13 @@
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 .acerca-de-services {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
+      margin-left: 25px;
       
     }
     
@@ -27,7 +28,7 @@
     .acerca-de-services-fila2 {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
-      margin-left: 65px;
+      margin-left: 90px;
     }
     
     .acerca-de-services-fila2 h2 {
@@ -46,7 +47,7 @@
     .acerca-de-services-fila3 {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
-      margin-left: 65px;
+      margin-left: 90px;
     }
     
     .acerca-de-services-fila3 h2 {
@@ -65,7 +66,7 @@
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
    margin-top: -900px;
-   margin-left: 700px;
+   margin-left: 1100px;
       
     }
     
@@ -83,7 +84,7 @@
     .acerca-de-services-ivanfila2 {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
-      margin-left: 765px;
+      margin-left: 1165px;
       
     }
     
@@ -102,7 +103,7 @@
     .acerca-de-services-ivanfila3 {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
-      margin-left: 765px;
+      margin-left: 1165px;
       
     }
     
@@ -121,7 +122,7 @@
     .acerca-de-services-ivanfila4 {
       display: flex; /* Alinea los elementos horizontalmente */
       align-items: center; /* Centra los elementos verticalmente */
-      margin-left: 765px;
+      margin-left: 1165px;
       
     }
     

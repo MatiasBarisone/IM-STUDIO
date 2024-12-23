@@ -15,17 +15,25 @@
 }
 
 .navbar-right a {
-  color: #ffffff; /* Color de texto blanco por defecto */
-  text-decoration: none; /* Eliminar subrayado */
-  padding: 10px 15px; /* Espaciado para aumentar el área de clic */
-  font-size: 16px; /* Tamaño de la letra inicial */
-  transition: all 0.3s ease; /* Transición suave para todos los cambios */
+  color: #ffffff; /* Color del texto por defecto */
+  text-decoration: none; /* Sin subrayado */
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
   -webkit-text-stroke: 1px transparent; /* Borde transparente por defecto */
-  display: inline-block; /* Asegura que el texto sea tratado como un bloque */
 }
 
+.navbar-right a.active {
+  -webkit-text-stroke: 1px #FF4837; /* Borde rojo para el enlace activo */
+  color: transparent; /* Hace que solo se vea el borde */
+}
+
+
 .navbar-right a:hover {
-  color: #ffffff; /* Mantener el color blanco del texto */
-  -webkit-text-stroke: 1px #FF4837; /* Borde rojo alrededor de las letras al hacer hover */
-  transform: translateY(-2px); /* Mover ligeramente el texto hacia arriba sin cambiar su tamaño */
+  color: #ffffff; /* Cambiar el color del texto al rojo en el hover */
+  -webkit-text-stroke: 0px transparent; /* Eliminar el borde del texto si no lo quieres */
+  background-color: #ff6f61; /* Fondo rojo claro con opacidad */
+  border-radius: 5px; /* Bordes redondeados para el efecto de fondo */
+  transform: translateY(-2px) scale(1.05); /* Mover hacia arriba y hacer un poco más grande */
+  transition: all 0.3s ease-in-out; /* Suavizar las transiciones */
 }
