@@ -6,6 +6,15 @@
   padding: 10px 20px;
   background-color: #001F3F; /* El color de fondo de la navbar */
   color: white;
+  opacity: 0;  /* Comienza con opacidad 0 */
+  transform: translateY(-20px); /* Comienza desplazado hacia arriba */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Transición suave */
+}
+
+/* Clase 'loaded' para animar la barra de navegación */
+.navbar.loaded {
+  opacity: 1;  /* Al cargarse, opacidad pasa a 1 */
+  transform: translateY(0); /* Desplazamiento hacia su posición original */
 }
 
 /* Estilos para la parte izquierda de la navbar */
@@ -27,7 +36,6 @@
   -webkit-text-stroke: 1px #FF4837; /* Borde rojo para el enlace activo */
   color: transparent; /* Hace que solo se vea el borde */
 }
-
 
 .navbar-right a:hover {
   color: #ffffff; /* Cambiar el color del texto al rojo en el hover */

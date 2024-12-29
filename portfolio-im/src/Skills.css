@@ -176,3 +176,65 @@
   align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
   max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
 }
+/* Estilo general para los iconos */
+.iconos-container {
+  display: flex;
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px; /* Espaciado superior */
+  justify-content: center; /* Centra los íconos */
+  position: relative;
+}
+
+
+
+
+/* Contenedor con el nombre detrás del ícono */
+.icon-name {
+  opacity: 0;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+/* Estilo de los iconos al pasar el ratón */
+.skill-icon:hover {
+  transform: scale(1.1); /* Efecto de ampliación */
+}
+/* Estilo de los iconos al pasar el ratón */
+.skill-icon-ivan:hover {
+  transform: scale(1.1); /* Efecto de ampliación */
+}
+
+
+/* Mostrar el nombre al pasar el ratón */
+.skill-icon:hover .icon-name {
+  opacity: 1;
+}
+
+/* Ajustar el contenedor de los iconos de Iván */
+.iconos-container-ivan {
+  display: flex;
+  flex-wrap: wrap; /* Permite que los íconos se acomoden en varias filas */
+  gap: 30px; /* Espaciado entre los íconos */
+  margin-top: 20px;
+  justify-content: center; /* Centra los íconos en cada fila */
+  align-items: flex-start; /* Alinea los íconos desde el inicio de cada fila */
+  max-width: 100%; /* Asegura que el contenedor no tenga un ancho fijo */
+}
+
+/* Ajustar el tamaño de los iconos */
+.skill-icon-ivan {
+  width: 50px; /* Ajusta el tamaño de los íconos */
+  height: 50px;
+  object-fit: cover;
+}
+
+/* Asegurarse de que el texto se muestre con opacidad al pasar el ratón */
+.skill-icon-ivan:hover .icon-name {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+
+

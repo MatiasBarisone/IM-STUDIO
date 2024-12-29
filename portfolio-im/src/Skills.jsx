@@ -45,48 +45,69 @@ const Skills = () => {
                     datos con Sequelize.
                   </p>
                   <div className="iconos-container">
-                    <img
-                      src="/images/React.png"
-                      alt="React"
-                      className="skill-icon"
-                      title="React"
-                    />
-                    <img
-                      src="/images/nodejs.png"
-                      alt="NodeJs"
-                      className="skill-icon"
-                      title="Node.js"
-                    />
-                    <img
-                      src="/images/html.png"
-                      alt="HTML"
-                      className="skill-icon"
-                      title="HTML"
-                    />
-                    <img
-                      src="/images/css.png"
-                      alt="CSS"
-                      className="skill-icon"
-                      title="CSS"
-                    />
-                    <img
-                      src="/images/js.png"
-                      alt="JavaScript"
-                      className="skill-icon"
-                      title="JavaScript"
-                    />
-                    <img
-                      src="/images/mysql.png"
-                      alt="MySQL"
-                      className="skill-icon"
-                      title="MySQL"
-                    />
-                    <img
-                      src="/images/mongodb.png"
-                      alt="MongoDB"
-                      className="skill-icon"
-                      title="MongoDB"
-                    />
+                    <div className="skill-icon">
+                      <img
+                        src="/images/React.png"
+                        alt="React"
+                        className="skill-icon-img"
+                        title="React"
+                      />
+                      <div className="icon-name">React</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/nodejs.png"
+                        alt="NodeJs"
+                        className="skill-icon-img"
+                        title="Node.js"
+                      />
+                      <div className="icon-name">Node.js</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/html.png"
+                        alt="HTML"
+                        className="skill-icon-img"
+                        title="HTML"
+                      />
+                      <div className="icon-name">HTML</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/css.png"
+                        alt="CSS"
+                        className="skill-icon-img"
+                        title="CSS"
+                      />
+                      <div className="icon-name">CSS</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/js.png"
+                        alt="JavaScript"
+                        className="skill-icon-img"
+                        title="JavaScript"
+                      />
+                      <div className="icon-name">JS</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/mysql.png"
+                        alt="MySQL"
+                        className="skill-icon-img"
+                        title="MySQL"
+                      />
+                      <div className="icon-name">MySQL</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/mongodb.png"
+                        alt="MongoDB"
+                        className="skill-icon-img"
+                        title="MongoDB"
+                      />
+                      <div className="icon-name">MongoDB</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -104,66 +125,96 @@ const Skills = () => {
                     negocio.
                   </p>
                   <div className="iconos-container-ivan">
-                    <img
-                      src="/images/image 10.png"
-                      alt="Icono 1"
-                      className="skill-icon-ivan"
-                      title="Icono 1"
-                    />
-                    <img
-                      src="/images/ui.png"
-                      alt="UI"
-                      className="skill-icon"
-                      title="UI"
-                    />
-                    <img
-                      src="/images/prototipado.png"
-                      alt="Prototipado"
-                      className="skill-icon"
-                      title="Prototipado"
-                    />
-                    <img
-                      src="/images/investigacion.png"
-                      alt="Investigación"
-                      className="skill-icon"
-                      title="Investigación"
-                    />
-                    <img
-                      src="/images/heuristica.png"
-                      alt="Heurística"
-                      className="skill-icon"
-                      title="Heurística"
-                    />
-                    <img
-                      src="/images/ai.png"
-                      alt="IA"
-                      className="skill-icon"
-                      title="IA"
-                    />
-                    <img
-                      src="/images/wireframing.png"
-                      alt="Wireframing"
-                      className="skill-icon"
-                      title="Wireframing"
-                    />
-                    <img
-                      src="/images/pruebausuario.png"
-                      alt="Pruebas de Usuario"
-                      className="skill-icon"
-                      title="Pruebas de Usuario"
-                    />
-                    <img
-                      src="/images/userpersona.png"
-                      alt="User Persona"
-                      className="skill-icon"
-                      title="User Persona"
-                    />
-                    <img
-                      src="/images/flujousuario.png"
-                      alt="Flujo de Usuario"
-                      className="skill-icon"
-                      title="Flujo de Usuario"
-                    />
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/image 10.png"
+                        alt="Icono 1"
+                        className="skill-icon-img"
+                        title="Icono 1"
+                      />
+                      <div className="icon-name">UX</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/ui.png"
+                        alt="UI"
+                        className="skill-icon-img"
+                        title="UI"
+                      />
+                      <div className="icon-name">UI</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/prototipado.png"
+                        alt="Prototipado"
+                        className="skill-icon-img"
+                        title="Prototipado"
+                      />
+                      <div className="icon-name">Prototipado</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/investigacion.png"
+                        alt="Investigación"
+                        className="skill-icon-img"
+                        title="Investigación"
+                      />
+                      <div className="icon-name">Investigación</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/heuristica.png"
+                        alt="Heurística"
+                        className="skill-icon-img"
+                        title="Heurística"
+                      />
+                      <div className="icon-name">Heurística</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/ai.png"
+                        alt="IA"
+                        className="skill-icon-img"
+                        title="IA"
+                      />
+                      <div className="icon-name">IA</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/wireframing.png"
+                        alt="Wireframing"
+                        className="skill-icon-img"
+                        title="Wireframing"
+                      />
+                      <div className="icon-name">Wireframing</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/pruebausuario.png"
+                        alt="Pruebas de Usuario"
+                        className="skill-icon-img"
+                        title="Pruebas de Usuario"
+                      />
+                      <div className="icon-name">Pruebas de Usuario</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/userpersona.png"
+                        alt="User Persona"
+                        className="skill-icon-img"
+                        title="User Persona"
+                      />
+                      <div className="icon-name">User Persona</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/flujousuario.png"
+                        alt="Flujo de Usuario"
+                        className="skill-icon-img"
+                        title="Flujo de Usuario"
+                      />
+                      <div className="icon-name">Flujo de Usuario</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -184,42 +235,60 @@ const Skills = () => {
                     datos con Sequelize.
                   </p>
                   <div className="iconos-container-herramientas">
-                    <img
-                      src="/images/visualcode.png"
-                      alt="Visual Studio"
-                      className="skill-icon"
-                      title="Visual Studio Code"
-                    />
-                    <img
-                      src="/images/git.png"
-                      alt="Git"
-                      className="skill-icon"
-                      title="Git"
-                    />
-                    <img
-                      src="/images/github.png"
-                      alt="GitHub"
-                      className="skill-icon"
-                      title="GitHub"
-                    />
-                    <img
-                      src="/images/netfily.png"
-                      alt="Netlify"
-                      className="skill-icon"
-                      title="Netlify"
-                    />
-                    <img
-                      src="/images/mysqlherramientas.png"
-                      alt="MySQL"
-                      className="skill-icon"
-                      title="MySQL"
-                    />
-                    <img
-                      src="/images/xamp.png"
-                      alt="XAMPP"
-                      className="skill-icon"
-                      title="XAMPP"
-                    />
+                    <div className="skill-icon">
+                      <img
+                        src="/images/visualcode.png"
+                        alt="Visual Studio"
+                        className="skill-icon-img"
+                        title="Visual Studio Code"
+                      />
+                      <div className="icon-name">Visual Studio Code</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/git.png"
+                        alt="Git"
+                        className="skill-icon-img"
+                        title="Git"
+                      />
+                      <div className="icon-name">Git</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/github.png"
+                        alt="GitHub"
+                        className="skill-icon-img"
+                        title="GitHub"
+                      />
+                      <div className="icon-name">GitHub</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/netfily.png"
+                        alt="Netlify"
+                        className="skill-icon-img"
+                        title="Netlify"
+                      />
+                      <div className="icon-name">Netlify</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/mysql.png"
+                        alt="MySQL"
+                        className="skill-icon-img"
+                        title="MySQL"
+                      />
+                      <div className="icon-name">MySQL</div>
+                    </div>
+                    <div className="skill-icon">
+                      <img
+                        src="/images/xamp.png"
+                        alt="XAMPP"
+                        className="skill-icon-img"
+                        title="XAMPP"
+                      />
+                      <div className="icon-name">XAMPP</div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -237,42 +306,60 @@ const Skills = () => {
                     negocio.
                   </p>
                   <div className="iconos-container-ivan-herramientas">
-                    <img
-                      src="/images/figma.png"
-                      alt="Figma"
-                      className="skill-icon-ivan"
-                      title="Figma"
-                    />
-                    <img
-                      src="/images/maze.png"
-                      alt="Maze"
-                      className="skill-icon"
-                      title="Maze"
-                    />
-                    <img
-                      src="/images/uxtweak.png"
-                      alt="UxTweak"
-                      className="skill-icon"
-                      title="UxTweak"
-                    />
-                    <img
-                      src="/images/figjam.png"
-                      alt="Figjam"
-                      className="skill-icon"
-                      title="Figjam"
-                    />
-                    <img
-                      src="/images/canva.png"
-                      alt="Canva"
-                      className="skill-icon"
-                      title="Canva"
-                    />
-                    <img
-                      src="/images/maze.png"
-                      alt="Maze"
-                      className="skill-icon"
-                      title="Maze"
-                    />
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/figma.png"
+                        alt="Figma"
+                        className="skill-icon-img"
+                        title="Figma"
+                      />
+                      <div className="icon-name">Figma</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/maze.png"
+                        alt="Maze"
+                        className="skill-icon-img"
+                        title="Maze"
+                      />
+                      <div className="icon-name">Maze</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/uxtweak.png"
+                        alt="UxTweak"
+                        className="skill-icon-img"
+                        title="UxTweak"
+                      />
+                      <div className="icon-name">UxTweak</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/figjam.png"
+                        alt="Figjam"
+                        className="skill-icon-img"
+                        title="Figjam"
+                      />
+                      <div className="icon-name">Figjam</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/canva.png"
+                        alt="Canva"
+                        className="skill-icon-img"
+                        title="Canva"
+                      />
+                      <div className="icon-name">Canva</div>
+                    </div>
+                    <div className="skill-icon-ivan">
+                      <img
+                        src="/images/image 21.png"
+                        alt="IA"
+                        className="skill-icon-img"
+                        title="IA"
+                      />
+                      <div className="icon-name">IA</div>
+                    </div>
                   </div>
                 </div>
               </div>

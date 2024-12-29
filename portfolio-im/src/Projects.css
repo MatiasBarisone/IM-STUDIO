@@ -1,0 +1,101 @@
+.acerca-de-matias-projects {
+  display: flex; /* Alinea los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-left: 25px;
+  margin-top: -20px;
+}
+
+.acerca-de-matias-projects h2 {
+  font-size: 24px; /* Tamaño del texto */
+  color: #ffffff; /* Color del texto */
+  writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+  transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+  text-decoration: underline; /* Subraya el texto */
+  text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+  text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+ margin-top: -580px;
+}
+.acerca-de-ivan-projects {
+  display: flex; /* Alinea los elementos horizontalmente */
+  align-items: center; /* Centra los elementos verticalmente */
+  margin-left: 900px;
+  margin-top: -570px;
+  
+}
+
+.acerca-de-ivan-projects h2 {
+  font-size: 24px; /* Tamaño del texto */
+  color: #ffffff; /* Color del texto */
+  writing-mode: vertical-rl; /* Hace que el texto se lea verticalmente de arriba hacia abajo */
+  transform: rotate(180deg); /* Da vuelta el texto para que mire hacia la derecha */
+  text-decoration: underline; /* Subraya el texto */
+  text-decoration-color: #ffffff; /* Color de la línea de subrayado */
+  text-decoration-thickness: 2px; /* Grosor de la línea de subrayado */
+  margin-top: -620px;
+}
+.ivan-p{
+  margin-top: -125px;
+  margin-left: 980px;
+
+}
+.matias-p{
+  margin-left: 110px;
+}
+
+.project-card {
+    background-color: #1e1e1e; /* Fondo oscuro */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .project-card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  } 
+  .project-card-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project-card-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .project-card-button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card-button:hover {
+    background-color: #0056b3;
+  }
+
+  
